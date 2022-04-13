@@ -1,0 +1,16 @@
+C:\Users\Loera\Documents\AlexisChafa\Facturacion4Old - copia\bin\Release\CFDIV40.CFDLibV4.dll
+C:\Users\Loera\Documents\AlexisChafa\Facturacion4Old - copia\bin\Release\CFDIV40.CFDLibV4.pdb
+C:\Users\Loera\Documents\AlexisChafa\Facturacion4Old - copia\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\Loera\Documents\AlexisChafa\Facturacion4Old - copia\obj\Release\Facturacion4Old - copia.csprojAssemblyReference.cache
+C:\Users\Loera\Documents\AlexisChafa\Facturacion4Old - copia\obj\Release\Facturacion4Old - copia.csproj.CoreCompileInputs.cache
+C:\Users\Loera\Documents\AlexisChafa\Facturacion4Old - copia\obj\Release\Facturacion4Old - copia.csproj.CopyComplete
+C:\Users\Loera\Documents\AlexisChafa\Facturacion4Old - copia\obj\Release\CFDIV40.CFDLibV4.dll
+C:\Users\Loera\Documents\AlexisChafa\Facturacion4Old - copia\obj\Release\CFDIV40.CFDLibV4.pdb
+C:\Users\amendoza\Desktop\Escritorio\Modificar Dll\c#\Facturacion4Old - copia\Facturacion4Old - copia\bin\Release\CFDIV40.CFDLibV4.dll
+C:\Users\amendoza\Desktop\Escritorio\Modificar Dll\c#\Facturacion4Old - copia\Facturacion4Old - copia\bin\Release\CFDIV40.CFDLibV4.pdb
+C:\Users\amendoza\Desktop\Escritorio\Modificar Dll\c#\Facturacion4Old - copia\Facturacion4Old - copia\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\amendoza\Desktop\Escritorio\Modificar Dll\c#\Facturacion4Old - copia\Facturacion4Old - copia\obj\Release\Facturacion4Old - copia.csprojAssemblyReference.cache
+C:\Users\amendoza\Desktop\Escritorio\Modificar Dll\c#\Facturacion4Old - copia\Facturacion4Old - copia\obj\Release\Facturacion4Old - copia.csproj.CoreCompileInputs.cache
+C:\Users\amendoza\Desktop\Escritorio\Modificar Dll\c#\Facturacion4Old - copia\Facturacion4Old - copia\obj\Release\Facturacion4Old - copia.csproj.CopyComplete
+C:\Users\amendoza\Desktop\Escritorio\Modificar Dll\c#\Facturacion4Old - copia\Facturacion4Old - copia\obj\Release\CFDIV40.CFDLibV4.dll
+C:\Users\amendoza\Desktop\Escritorio\Modificar Dll\c#\Facturacion4Old - copia\Facturacion4Old - copia\obj\Release\CFDIV40.CFDLibV4.pdb

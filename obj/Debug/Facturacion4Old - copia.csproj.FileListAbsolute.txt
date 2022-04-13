@@ -1,0 +1,8 @@
+C:\Users\Loera\Documents\AlexisChafa\Facturacion4Old - copia\bin\Debug\CFDIV40.CFDLibV4.dll
+C:\Users\Loera\Documents\AlexisChafa\Facturacion4Old - copia\bin\Debug\CFDIV40.CFDLibV4.pdb
+C:\Users\Loera\Documents\AlexisChafa\Facturacion4Old - copia\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Loera\Documents\AlexisChafa\Facturacion4Old - copia\obj\Debug\Facturacion4Old - copia.csprojAssemblyReference.cache
+C:\Users\Loera\Documents\AlexisChafa\Facturacion4Old - copia\obj\Debug\Facturacion4Old - copia.csproj.CoreCompileInputs.cache
+C:\Users\Loera\Documents\AlexisChafa\Facturacion4Old - copia\obj\Debug\Facturacion4Old - copia.csproj.CopyComplete
+C:\Users\Loera\Documents\AlexisChafa\Facturacion4Old - copia\obj\Debug\CFDIV40.CFDLibV4.dll
+C:\Users\Loera\Documents\AlexisChafa\Facturacion4Old - copia\obj\Debug\CFDIV40.CFDLibV4.pdb

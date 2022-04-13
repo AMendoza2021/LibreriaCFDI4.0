@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Loera\Downloads\Facturacion4Old - copia.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF6D17EC-6E50-462B-B39F-283FF50B530F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Facturacion.CFDLibV4</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>0.1.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>MictlanixV4</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CFDLib\Utils.cs" />
+    <Compile Include="CFDLib\CFDv2Report.cs" />
+    <Compile Include="CFDLib\CFDv2ReportItem.cs" />
+    <Compile Include="CFDLib\CFDv2ReportItemType.cs" />
+    <Compile Include="CFDLib\CFDException.cs" />
+    <Compile Include="CFDLib\Addendas\Mabe\Factura.cs" />
+    <Compile Include="CFDLib\Addendas\Mabe\FacturaMoneda.cs" />
+    <Compile Include="CFDLib\Addendas\Mabe\FacturaMonedaTipoMoneda.cs" />
+    <Compile Include="CFDLib\Addendas\Mabe\FacturaProveedor.cs" />
+    <Compile Include="CFDLib\Addendas\Mabe\FacturaEntrega.cs" />
+    <Compile Include="CFDLib\Addendas\Mabe\FacturaDetalle.cs" />
+    <Compile Include="CFDLib\Addendas\Mabe\FacturaDescuentos.cs" />
+    <Compile Include="CFDLib\Addendas\Mabe\FacturaDescuentosTipo.cs" />
+    <Compile Include="CFDLib\Addendas\Mabe\FacturaSubtotal.cs" />
+    <Compile Include="CFDLib\Addendas\Mabe\FacturaTraslado.cs" />
+    <Compile Include="CFDLib\Addendas\Mabe\FacturaRetencion.cs" />
+    <Compile Include="CFDLib\Addendas\Mabe\FacturaTotal.cs" />
+    <Compile Include="CFDLib\Addendas\Mabe\FacturaTipoDocumento.cs" />
+    <Compile Include="CFDv20\Comprobante.cs" />
+    <Compile Include="CFDv20\ComprobanteEmisor.cs" />
+    <Compile Include="CFDv20\t_UbicacionFiscal.cs" />
+    <Compile Include="CFDv20\t_InformacionAduanera.cs" />
+    <Compile Include="CFDv20\t_Ubicacion.cs" />
+    <Compile Include="CFDv20\ComprobanteReceptor.cs" />
+    <Compile Include="CFDv20\ComprobanteConcepto.cs" />
+    <Compile Include="CFDv20\ComprobanteConceptoComplementoConcepto.cs" />
+    <Compile Include="CFDv20\ComprobanteConceptoCuentaPredial.cs" />
+    <Compile Include="CFDv20\ComprobanteConceptoParte.cs" />
+    <Compile Include="CFDv20\ComprobanteImpuestos.cs" />
+    <Compile Include="CFDv20\ComprobanteImpuestosRetencion.cs" />
+    <Compile Include="CFDv20\ComprobanteImpuestosRetencionImpuesto.cs" />
+    <Compile Include="CFDv20\ComprobanteImpuestosTraslado.cs" />
+    <Compile Include="CFDv20\ComprobanteImpuestosTrasladoImpuesto.cs" />
+    <Compile Include="CFDv20\ComprobanteComplemento.cs" />
+    <Compile Include="CFDv20\ComprobanteAddenda.cs" />
+    <Compile Include="CFDv20\ComprobanteTipoDeComprobante.cs" />
+    <Compile Include="CFDv20\Resources\EmbeddedResourceResolver.cs" />
+    <Compile Include="CFDv22\Comprobante.cs" />
+    <Compile Include="CFDv22\ComprobanteEmisor.cs" />
+    <Compile Include="CFDv22\t_UbicacionFiscal.cs" />
+    <Compile Include="CFDv22\t_InformacionAduanera.cs" />
+    <Compile Include="CFDv22\t_Ubicacion.cs" />
+    <Compile Include="CFDv22\ComprobanteEmisorRegimenFiscal.cs" />
+    <Compile Include="CFDv22\ComprobanteReceptor.cs" />
+    <Compile Include="CFDv22\ComprobanteConcepto.cs" />
+    <Compile Include="CFDv22\ComprobanteConceptoComplementoConcepto.cs" />
+    <Compile Include="CFDv22\ComprobanteConceptoCuentaPredial.cs" />
+    <Compile Include="CFDv22\ComprobanteConceptoParte.cs" />
+    <Compile Include="CFDv22\ComprobanteImpuestos.cs" />
+    <Compile Include="CFDv22\ComprobanteImpuestosRetencion.cs" />
+    <Compile Include="CFDv22\ComprobanteImpuestosRetencionImpuesto.cs" />
+    <Compile Include="CFDv22\ComprobanteImpuestosTraslado.cs" />
+    <Compile Include="CFDv22\ComprobanteImpuestosTrasladoImpuesto.cs" />
+    <Compile Include="CFDv22\ComprobanteComplemento.cs" />
+    <Compile Include="CFDv22\ComprobanteAddenda.cs" />
+    <Compile Include="CFDv22\ComprobanteTipoDeComprobante.cs" />
+    <Compile Include="CFDv22\Resources\EmbeddedResourceResolver.cs" />
+    <Compile Include="CFDv32\TimbreFiscalDigital.cs" />
+    <Compile Include="CFDv32\Comprobante.cs" />
+    <Compile Include="CFDv32\ComprobanteEmisor.cs" />
+    <Compile Include="CFDv32\t_UbicacionFiscal.cs" />
+    <Compile Include="CFDv32\t_InformacionAduanera.cs" />
+    <Compile Include="CFDv32\t_Ubicacion.cs" />
+    <Compile Include="CFDv32\ComprobanteEmisorRegimenFiscal.cs" />
+    <Compile Include="CFDv32\ComprobanteReceptor.cs" />
+    <Compile Include="CFDv32\ComprobanteConcepto.cs" />
+    <Compile Include="CFDv32\ComprobanteConceptoComplementoConcepto.cs" />
+    <Compile Include="CFDv32\ComprobanteConceptoCuentaPredial.cs" />
+    <Compile Include="CFDv32\ComprobanteConceptoParte.cs" />
+    <Compile Include="CFDv32\ComprobanteImpuestos.cs" />
+    <Compile Include="CFDv32\ComprobanteImpuestosRetencion.cs" />
+    <Compile Include="CFDv32\ComprobanteImpuestosRetencionImpuesto.cs" />
+    <Compile Include="CFDv32\ComprobanteImpuestosTraslado.cs" />
+    <Compile Include="CFDv32\ComprobanteImpuestosTrasladoImpuesto.cs" />
+    <Compile Include="CFDv32\ComprobanteTipoDeComprobante.cs" />
+    <Compile Include="CFDv32\LeyendasFiscales.cs" />
+    <Compile Include="CFDv32\LeyendasFiscalesLeyenda.cs" />
+    <Compile Include="CFDv32\Resources\EmbeddedResourceResolver.cs" />
+    <Compile Include="CFDv33\Comprobante.cs" />
+    <Compile Include="CFDv33\ComprobanteCFDIRelacionados.cs" />
+    <Compile Include="CFDv33\ComprobanteCfdiRelacionadosCfdiRelacionado.cs" />
+    <Compile Include="CFDv33\ComprobanteEmisor.cs" />
+    <Compile Include="CFDv33\ComprobanteReceptor.cs" />
+    <Compile Include="CFDv33\ComprobanteConcepto.cs" />
+    <Compile Include="CFDv33\ComprobanteConceptoImpuestos.cs" />
+    <Compile Include="CFDv33\ComprobanteConceptoImpuestosTraslado.cs" />
+    <Compile Include="CFDv33\ComprobanteConceptoImpuestosRetencion.cs" />
+    <Compile Include="CFDv33\ComprobanteConceptoInformacionAduanera.cs" />
+    <Compile Include="CFDv33\ComprobanteConceptoCuentaPredial.cs" />
+    <Compile Include="CFDv33\ComprobanteConceptoComplementoConcepto.cs" />
+    <Compile Include="CFDv33\ComprobanteConceptoParte.cs" />
+    <Compile Include="CFDv33\ComprobanteConceptoParteInformacionAduanera.cs" />
+    <Compile Include="CFDv33\ComprobanteImpuestos.cs" />
+    <Compile Include="CFDv33\ComprobanteImpuestosRetencion.cs" />
+    <Compile Include="CFDv33\ComprobanteImpuestosTraslado.cs" />
+    <Compile Include="CFDv33\ComprobanteComplemento.cs" />
+    <Compile Include="CFDv33\ComprobanteAddenda.cs" />
+    <Compile Include="CFDv33\eTipoDeComprobante.cs" />
+    <Compile Include="CFDv33\LeyendasFiscales.cs" />
+    <Compile Include="CFDv33\LeyendasFiscalesLeyenda.cs" />
+    <Compile Include="CFDv33\TimbreFiscalDigital.cs" />
+    <Compile Include="CFDv33\Resources\EmbeddedResourceResolver.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="CFDv4\Comprobante.cs" />
+    <Compile Include="CFDv4\ComprobanteAddenda.cs" />
+    <Compile Include="CFDv4\ComprobanteCFDIRelacionados.cs" />
+    <Compile Include="CFDv4\ComprobanteCfdiRelacionadosCfdiRelacionado.cs" />
+    <Compile Include="CFDv4\ComprobanteComplemento.cs" />
+    <Compile Include="CFDv4\ComprobanteConcepto.cs" />
+    <Compile Include="CFDv4\ComprobanteConceptoComplementoConcepto.cs" />
+    <Compile Include="CFDv4\ComprobanteConceptoCuentaPredial.cs" />
+    <Compile Include="CFDv4\ComprobanteConceptoImpuestos.cs" />
+    <Compile Include="CFDv4\ComprobanteConceptoImpuestosRetencion.cs" />
+    <Compile Include="CFDv4\ComprobanteConceptoImpuestosTraslado.cs" />
+    <Compile Include="CFDv4\ComprobanteConceptoInformacionAduanera.cs" />
+    <Compile Include="CFDv4\ComprobanteConceptoParte.cs" />
+    <Compile Include="CFDv4\ComprobanteConceptoParteInformacionAduanera.cs" />
+    <Compile Include="CFDv4\ComprobanteEmisor.cs" />
+    <Compile Include="CFDv4\ComprobanteImpuestos.cs" />
+    <Compile Include="CFDv4\ComprobanteImpuestosRetencion.cs" />
+    <Compile Include="CFDv4\ComprobanteImpuestosTraslado.cs" />
+    <Compile Include="CFDv4\ComprobanteReceptor.cs" />
+    <Compile Include="CFDv4\eTipoDeComprobante.cs" />
+    <Compile Include="CFDv4\LeyendasFiscales.cs" />
+    <Compile Include="CFDv4\LeyendasFiscalesLeyenda.cs" />
+    <Compile Include="CFDv4\Resources\EmbeddedResourceResolver.cs" />
+    <Compile Include="CFDv4\TimbreFiscalDigital.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CFDv20\Resources\cadenaoriginal_2_0.xslt" />
+    <EmbeddedResource Include="CFDv20\Resources\detallista.xslt" />
+    <EmbeddedResource Include="CFDv20\Resources\divisas.xslt" />
+    <EmbeddedResource Include="CFDv20\Resources\donat.xslt" />
+    <EmbeddedResource Include="CFDv20\Resources\ecb.xslt" />
+    <EmbeddedResource Include="CFDv20\Resources\ecc.xslt" />
+    <EmbeddedResource Include="CFDv20\Resources\implocal.xslt" />
+    <EmbeddedResource Include="CFDv20\Resources\psgecfd.xslt" />
+    <EmbeddedResource Include="CFDv20\Resources\terceros.xslt" />
+    <EmbeddedResource Include="CFDv20\Resources\utilerias.xslt" />
+    <EmbeddedResource Include="CFDv22\Resources\cadenaoriginal_2_2.xslt" />
+    <EmbeddedResource Include="CFDv22\Resources\detallista.xslt" />
+    <EmbeddedResource Include="CFDv22\Resources\divisas.xslt" />
+    <EmbeddedResource Include="CFDv22\Resources\donat11.xslt" />
+    <EmbeddedResource Include="CFDv22\Resources\ecb.xslt" />
+    <EmbeddedResource Include="CFDv22\Resources\ecc.xslt" />
+    <EmbeddedResource Include="CFDv22\Resources\iedu.xslt" />
+    <EmbeddedResource Include="CFDv22\Resources\implocal.xslt" />
+    <EmbeddedResource Include="CFDv22\Resources\leyendasFisc.xslt" />
+    <EmbeddedResource Include="CFDv22\Resources\pfic.xslt" />
+    <EmbeddedResource Include="CFDv22\Resources\psgcfdsp.xslt" />
+    <EmbeddedResource Include="CFDv22\Resources\psgecfd.xslt" />
+    <EmbeddedResource Include="CFDv22\Resources\terceros11.xslt" />
+    <EmbeddedResource Include="CFDv22\Resources\TuristaPasajeroExtranjero.xslt" />
+    <EmbeddedResource Include="CFDv22\Resources\utilerias.xslt" />
+    <EmbeddedResource Include="CFDv22\Resources\ventavehiculos.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\cadenaoriginal_3_2.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\cadenaoriginal_TFD_1_0.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\detallista.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\divisas.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\donat11.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\ecb.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\ecc.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\iedu.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\implocal.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\leyendasFisc.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\pfic.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\psgecfd.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\spei.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\terceros11.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\TuristaPasajeroExtranjero.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\utilerias.xslt" />
+    <EmbeddedResource Include="CFDv32\Resources\ventavehiculos.xslt" />
+    <EmbeddedResource Include="CFDv33\Resources\detallista.xslt" />
+    <EmbeddedResource Include="CFDv33\Resources\divisas.xslt" />
+    <EmbeddedResource Include="CFDv33\Resources\donat11.xslt" />
+    <EmbeddedResource Include="CFDv33\Resources\ecb.xslt" />
+    <EmbeddedResource Include="CFDv33\Resources\ecc.xslt" />
+    <EmbeddedResource Include="CFDv33\Resources\iedu.xslt" />
+    <EmbeddedResource Include="CFDv33\Resources\implocal.xslt" />
+    <EmbeddedResource Include="CFDv33\Resources\leyendasFisc.xslt" />
+    <EmbeddedResource Include="CFDv33\Resources\pfic.xslt" />
+    <EmbeddedResource Include="CFDv33\Resources\psgecfd.xslt" />
+    <EmbeddedResource Include="CFDv33\Resources\spei.xslt" />
+    <EmbeddedResource Include="CFDv33\Resources\terceros11.xslt" />
+    <EmbeddedResource Include="CFDv33\Resources\TuristaPasajeroExtranjero.xslt" />
+    <EmbeddedResource Include="CFDv33\Resources\utilerias.xslt" />
+    <EmbeddedResource Include="CFDv33\Resources\ventavehiculos.xslt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CFDv4\Resources\detallista.xslt" />
+    <Content Include="CFDv4\Resources\divisas.xslt" />
+    <Content Include="CFDv4\Resources\donat11.xslt" />
+    <Content Include="CFDv4\Resources\ecb.xslt" />
+    <Content Include="CFDv4\Resources\ecc.xslt" />
+    <Content Include="CFDv4\Resources\iedu.xslt" />
+    <Content Include="CFDv4\Resources\implocal.xslt" />
+    <Content Include="CFDv4\Resources\leyendasFisc.xslt" />
+    <Content Include="CFDv4\Resources\pfic.xslt" />
+    <Content Include="CFDv4\Resources\psgecfd.xslt" />
+    <Content Include="CFDv4\Resources\spei.xslt" />
+    <Content Include="CFDv4\Resources\terceros11.xslt" />
+    <Content Include="CFDv4\Resources\TuristaPasajeroExtranjero.xslt" />
+    <Content Include="CFDv4\Resources\utilerias.xslt" />
+    <Content Include="CFDv4\Resources\ventavehiculos.xslt" />
+    <Content Include="obj\Debug\Facturacion4Old - copia.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Mictlanix.CFDLib.dll" />
+    <Content Include="obj\Debug\Mictlanix.CFDLib.pdb" />
+    <Content Include="obj\Release\Facturacion4Old - copia.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\Mictlanix.CFDLib.dll" />
+    <Content Include="obj\Release\Mictlanix.CFDLib.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Facturacion4Old - copia.csproj.CopyComplete" />
+    <None Include="obj\Debug\Facturacion4Old - copia.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\Facturacion4Old - copia.csprojAssemblyReference.cache" />
+    <None Include="obj\Release\Facturacion4Old - copia.csproj.CopyComplete" />
+    <None Include="obj\Release\Facturacion4Old - copia.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Release\Facturacion4Old - copia.csprojAssemblyReference.cache" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

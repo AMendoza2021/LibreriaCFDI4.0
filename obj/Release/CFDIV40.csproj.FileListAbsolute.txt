@@ -1,0 +1,7 @@
+C:\Users\amendoza\Desktop\Escritorio\Modificar Dll\c#\Facturacion4Old - copia\Facturacion4Old - copia\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\amendoza\Desktop\Escritorio\Modificar Dll\c#\Facturacion4Old - copia\Facturacion4Old - copia\obj\Release\CFDIV40.csproj.CoreCompileInputs.cache
+C:\Users\amendoza\Desktop\Escritorio\Modificar Dll\c#\Facturacion4Old - copia\Facturacion4Old - copia\obj\Release\CFDIV40.csproj.CopyComplete
+C:\Users\amendoza\Desktop\Escritorio\Modificar Dll\c#\Facturacion4Old - copia\Facturacion4Old - copia\bin\Release\Facturacion.CFDLibV4.dll
+C:\Users\amendoza\Desktop\Escritorio\Modificar Dll\c#\Facturacion4Old - copia\Facturacion4Old - copia\bin\Release\Facturacion.CFDLibV4.pdb
+C:\Users\amendoza\Desktop\Escritorio\Modificar Dll\c#\Facturacion4Old - copia\Facturacion4Old - copia\obj\Release\Facturacion.CFDLibV4.dll
+C:\Users\amendoza\Desktop\Escritorio\Modificar Dll\c#\Facturacion4Old - copia\Facturacion4Old - copia\obj\Release\Facturacion.CFDLibV4.pdb
